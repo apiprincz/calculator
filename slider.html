@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Slider</title>
+    <style>
+        body,html {
+            width: 100%;
+            margin: 0 auto;
+            padding: 0px;
+        }
+
+        .slider__container {
+            height: 60vh;
+            width: 400vw;
+            position: relative;
+            display: flex;
+        }
+        .slider__btn {
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100vw;
+            margin: 0 auto;
+            top: 50%;
+        }
+        .slider__img {
+            width: 100vw;
+            height: 60vh;
+            display: none;
+        }
+        .slider__btn button {
+            width: 60px;
+            height: 40px;
+            border: none;
+            background: blue;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div class="main__container"> -->
+        <div class="slider__container">
+            <img src="./resources/images/download (2).jpg" alt="" class="slider__img">
+            <img src="./resources/images/download (1).jpg" alt="" class="slider__img">
+            <img src="./resources/images/download.jpg" alt="" class="slider__img">
+            <img src="./resources/images/hongkong1081704.jpg" alt="" class="slider__img">
+            <div class="slider__btn">
+                <button class="left__btn"><img src="./resources/images/iconfinder_arrow-left-01_186410.svg"></button>
+                <button class="right__btn"><img src="./resources/images/iconfinder_arrow-right-01_186409.svg"></button>
+            </div>
+        </div>
+        
+    <!-- </div> -->
+    
+    <script src="./slider.js"></script>
+    
+    
+</body>
+</html>
